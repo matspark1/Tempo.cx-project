@@ -1,0 +1,26 @@
+@mixin radio-desc{
+    width: 400px;
+    height: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    margin-top: 280px;
+    .live{
+        color: #d7d7d7;
+        font-size: 14px;
+        margin: 10px 0 -5px 10px;;
+    }
+    p{
+        color: #d7d7d7;
+        font-size: 14px;
+        margin: -5px 10px;;
+        width: 380px;
+    }
+    h3{
+        color: #fff;
+        margin-left: 10px;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
